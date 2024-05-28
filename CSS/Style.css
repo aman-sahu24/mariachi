@@ -2,6 +2,9 @@
 	margin:0px;
 	padding:0px;
 }
+body {
+   background-color: #000;
+}
 .row {
    --bs-gutter-x: 0;
 }
@@ -293,6 +296,43 @@ span.span3 {
     border: 2px solid;
 }
 
+
+/* burger */
+
+
+#burger{
+    margin-top: 50px;
+    font-family: 'Roboto Slab', serif;
+}
+#burger h1{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    border-bottom: 2px solid #ffc800;
+    text-shadow: 1px 1px 1px black;
+}
+#burger .card{
+    margin-right: 15px;
+    color: white;
+    transition: 0.5s ease;
+    cursor: pointer;
+    background-color: rgb(60, 60, 60);
+}
+#burger .card:hover{
+    color: #000;
+    background-color: #ffc800;
+}
+#burger .card h3{
+    font-weight: bold;
+    text-shadow: 0px 0px 1px black;
+}
+#burger .card h5 span{
+    color: black;
+    float: right;
+}
+/* burger */
+
 .section5 {
     background-image: linear-gradient(rgba(33 37 41 / 43%), rgb(74 24 49 / 80%)),url(../Image/Bg5.webp);
     opacity:0.8;
@@ -480,6 +520,11 @@ ul {
     list-style: none;
     padding: 0;
     line-height: 25px;
+}
+.icon .fa-brands:hover {
+   color: #ffd7ad;
+   background-color: #4a1831;
+
 }
 
 
