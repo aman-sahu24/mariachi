@@ -41,6 +41,7 @@ ul{
 
 .navbar ul li {padding: 0px 4%;}
 
+
 .navbar ul li a {
     text-decoration: none;
     font-size: 2.3vw;
@@ -48,6 +49,30 @@ ul{
     font-family: "Times New Roman";
 	text-transform: uppercase;
     font-weight: 700;
+    transition: ease-in all 0.5s;
+    z-index: 999;
+    position: relative;
+
+}
+.navbar ul li a::after {
+    content: "";
+    border: 2px solid;
+    position: relative;
+    display: block;
+    transition: ease-in all 0.5s;
+    z-index: -1;
+    opacity: 0;
+   
+
+}
+.navbar ul li a:hover:after {
+    transition: ease-in all 0.5s;
+    opacity: 1;
+    
+}
+.navbar ul li a:hover {
+    transition: ease-in all 0.5s;
+    
 }
 .logo {
     position: absolute;
@@ -83,7 +108,15 @@ ul{
     border-radius: 33px;
     font-size: 1.8vw;
     font-weight: 700;
+    transition: ease-in all 0.5s;
 }
+
+button:hover {
+    background-color: #4a1831;
+    color: #ffd7ad;
+    outline: none;
+    border: 2px solid;
+}}
 .section1 {
     width: 100%;
    
@@ -116,6 +149,13 @@ ul{
     font-size: 25px;
     font-weight: 700;
     color: #ffd7ad;
+    transition: ease-in all 0.5s;
+}
+
+.Sec-content button:hover {
+    background-color: #ffd7ad;
+    color: #4a1831;
+    border: 2px solid;
 }
 .bg2 {
     width: 100%;
@@ -158,6 +198,13 @@ ul{
     font-size: 25px;
     font-weight: 700;
     color: #ffd7ad;
+    transition: ease-in all 0.5s;
+}
+
+.Sec2-content button:hover {
+    background-color: #ffd7ad;
+    color: #4a1831;
+    border: 2px solid;
 }
 .Bg3 {
     width: 88%;
@@ -243,6 +290,12 @@ span.span3 {
     font-size: 25px;
     font-weight: 700;
     color: #4a1831;
+    transition: ease-in all 0.5s;
+}
+.Sec4-content button:hover {
+    background-color: #4a1831;
+    color: #ffd7ad;
+    border: 2px solid;
 }
 
 .section5 {
