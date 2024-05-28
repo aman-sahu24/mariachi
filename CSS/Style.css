@@ -52,7 +52,6 @@ ul{
     transition: ease-in all 0.5s;
     z-index: 999;
     position: relative;
-
 }
 .navbar ul li a::after {
     content: "";
@@ -62,17 +61,13 @@ ul{
     transition: ease-in all 0.5s;
     z-index: -1;
     opacity: 0;
-   
-
 }
 .navbar ul li a:hover:after {
     transition: ease-in all 0.5s;
-    opacity: 1;
-    
+    opacity: 1;  
 }
 .navbar ul li a:hover {
-    transition: ease-in all 0.5s;
-    
+    transition: ease-in all 0.5s;    
 }
 .logo {
     position: absolute;
@@ -111,12 +106,12 @@ ul{
     transition: ease-in all 0.5s;
 }
 
-button:hover {
+.content button:hover {
     background-color: #4a1831;
     color: #ffd7ad;
     outline: none;
     border: 2px solid;
-}}
+}
 .section1 {
     width: 100%;
    
